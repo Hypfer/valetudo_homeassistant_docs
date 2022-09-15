@@ -24,6 +24,8 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        <p class="view"><a href="https://github.com/Hypfer/Valetudo">View the Project on GitHub <small>Hypfer/Valetudo</small></a></p>
+
         {% assign navpages = site.pages | sort: 'order' | group_by: 'category' %}
         {% for cat in navpages %}
         <h2>{{ cat.name }}</h2>
