@@ -1,0 +1,21 @@
+title: Valetudo Home Assistant Microsite
+description: >-
+  Some guidance regarding the use of Valetudo with Home Assistant
+baseurl: ""
+url: https://hass.valetudo.cloud
+github_username: Hypfer
+
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+collections:
+  pages:
+    output: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
