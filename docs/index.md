@@ -103,7 +103,7 @@ For more information, feel free to [check out the PNG spec](https://www.w3.org/T
 
 
 So what did we gain by this?<br/>
-Well, there is _one_ type of Home Assistant entity that _can_ be autodiscovered via MQTT **but also** doesn't end up in the recorder component: The `camera.mqtt`.
+Well, there is _one_ type of Home Assistant entity that _can_ be autodiscovered via MQTT **but also** doesn't end up in the recorder component: The `camera.mqtt`.<br/>
 `camera.mqtt` entities are available in Home Assistant, can be autodiscovered with no configuration required and - due to the nature of image data - aren't stored in the recorder component.
 
 By embedding our ValetudoMap JSON into an image, we thus can get our Map Data into Home Assistant with Autodiscovery without wrecking the recorder component.
